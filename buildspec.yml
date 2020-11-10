@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+      java: openjdk11
+    commands:
+      - pip install --upgrade awscli
+      - pip install -r requirements.txt
+      - mv const-staging.py const.py
+      - transcrypt -b todo-front
+      - mkdir -p deploy/__target__
+      - cp -p index.html deploy/
+      - cp -p __target__/*js deploy/__target__/
+      - aws s3 sync deploy s3://todo-front-staging
