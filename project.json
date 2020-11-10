@@ -13,7 +13,7 @@
   "serviceRole": "arn:aws:iam::142603634782:role/todo-front-build",
   "environment": {
       "type": "LINUX_CONTAINER",
-      "image": "aws/codebuild/standard:4.0",
+      "image": "aws/codebuild/standard:2.0",
       "computeType": "BUILD_GENERAL1_SMALL"
   }
 }
