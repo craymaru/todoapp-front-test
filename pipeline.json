@@ -45,7 +45,7 @@
             },
             "outputArtifacts": [],
             "configuration": {
-              "ProjectName": "hobopy-frontend-build"
+              "ProjectName": "todo-front-build"
             },
             "runOrder": 1
           }
@@ -56,7 +56,7 @@
       "type": "S3",
       "location": "todo-front-artifact"
     },
-    "name": "hobopy-frontend-pipeline",
+    "name": "todo-front-pipeline",
     "version": 1
   }
 }
