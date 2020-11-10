@@ -21,7 +21,7 @@
             ],
             "configuration": {
               "BranchName": "master",
-              "RepositoryName": "arn:aws:codecommit:ap-northeast-1:142603634782:todo-front"
+              "RepositoryName": "todo-front"
             },
             "runOrder": 1
           }
